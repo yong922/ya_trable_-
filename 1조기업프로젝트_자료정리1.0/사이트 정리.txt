@@ -1,0 +1,49 @@
+------------------------데이터 다운 사이트 --------------------------------
+https://github.com/LAH1203/Software_Engineering_Project / 요구사항정의서
+-> 캠핑장 프로젝트(요구사항 명세서, 프로젝트 계획서)
+
+https://know.tour.go.kr/stat/visitStatDis/table.do / 주요 관광객점 입장객
+-> 각 지역별로 관광지에 몇명 들어가있는지 연도,월별로 확인가능
+
+https://know.tour.go.kr/stat/tourStatSearchDis19Re.do /주요관광객점 입장객
+-> 한번들어가서 다시 데이터 확인
+
+https://datalab.visitkorea.or.kr/datalab/portal/loc/getLocalDataForm.do# / 한국관광 인원객 전체
+->지역별 맛집 데이터 다운가능
+
+https://www.localdata.go.kr/devcenter/dataDown.do?menuNo=20001#downcheckmodal/ 로컬데이터 다운
+-> 식당,식품,생활,문화 등 다양한 위치 데이터 csv파일로 다운 가능
+
+
+-----------------------참고 사이트---------------------------------
+https://www.myro.co.kr/myro2?city=hawaii
+-> 해외 여행추천 루트 정해주는 사이트
+
+https://velog.io/@eric2057/Selenium%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A7%B5-%ED%81%AC%EB%A1%A4%EB%A7%81%ED%95%98%EA%B8%B0
+-> 카카오맵 - 크롤링 방법(위치정보 크롤링해서 띄워주는 형식)
+
+Be Travelic - '여행이 체질'인 당신을 위한 여행지 추천 서비스
+-> https://github.com/dearsyjang/BeTravelic
+
+인공지능 기반 사용자 맟춤형 여행지 추천 및 여행 일정 스케줄링 웹 애플맄케이션
+-> https://github.com/JNU-econovation/Ontheway
+
+Traveler - 국내여행 (제주도) 지역 여행 경유지 최적화, 에산 정리, 동행모집
+-> https://github.com/jymaeng95/Traveler
+
+여행경로 추천 모델
+-> https://github.com/ifuseok/TripRecommendation
+
+삶을 즐길 줄 아는 58세대를 위한 여행 관광 어플 '오팔청춘'
+-> https://github.com/suji8073/OPAL_KW
+
+사용자 맞춤 제주 관광지 추천 서비스 -> 댓글 기반 AI 학습
+-> https://github.com/suheonjoo/Capstone-JejuTourRecommend
+
+
+여행 경로 / 일정 및 감상 공유 서비스
+-> https://github.com/prgrms-fe-devcourse/FEDC2_GBS_Hwarang
+
+
+
+
