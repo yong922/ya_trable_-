@@ -1,0 +1,66 @@
+참고자료 주소  
+
+https://korean.visitkorea.or.kr/main/main.do
+대한민국 구석구석 
+
+https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do
+한국관광 데이터랩 
+
+https://www.aihub.or.kr/aihubdata/data/list.do?pageIndex=1&currMenu=115&topMenu=100&dataSetSn=&srchdataClCode=DATACL001&srchOrder=&SrchdataClCode=DATACL002&searchKeyword=&srchDataRealmCode=REALM005
+aihub 주소 
+
+https://know.tour.go.kr/stat/visitStatDis/area.do
+주요관광지점 입장객 통계
+
+
+
+
+
+
+
+데이터 
+
+
+
+
+
+https://jlim0316.tistory.com/3?category=825435
+Geocode by Awesome Table: 주소를 통해 위도, 경도 자동 불러오기
+
+
+https://github.com/david02324/matjipfind
+첫 웹 프로젝트. 사용자의 위치정보를 가져오거나 직접입력하여 마커를 생성한 뒤, 해당 마커로부터 일정 거리 이내의 검색한 음식점을 찾아줌
+
+
+https://itwithruilan.tistory.com/102
+카카오 멥  지도에 띄우기  참고자료 
+
+
+
+
+모델 추천 주소  
+
+https://github.com/Isanghada/Recommendation-of-Jeju-s-attractions/
+
+제주도 관광지 추천 모델 개발
+내용 
+[
+1. final_code_데이터 처리
+2.VGG16을 사용한 Feature Extraction
+3.final_code_음식 라벨링_from CLIP.ipynb
+음식점, 카페의 경우 특징을 추출하기 어려운 부분이 있어 **관광명소**만 사용
+특성 벡터로 유클리드 거리/코사인 유사도 비교
+4.final_code_카카오 네비게이션API_Test.ipynb
+5.final_code_이미지유사도.ipynb
+6.특정 좌표간 직선 거리 함수 구현
+우리나라 기준 1도 = 88.8km, 1분 = 1.48km, 1초 = 25m
+위도 차이 : ((a.lat - b.lat) * 88.8) km
+경도 차이 : ((a.lng - b.lng) * 88.8) km
+거리 차이 : (위도 차이 2 + 경도 차이 2) ** (1/2) km]
+
+
+
+https://www.kaggle.com/code/uzairrj/beg-tut-intel-image-classification-93-76-accur
+[BEG][TUT]인텔 이미지 분류[정확도 93.76%]
+
+
