@@ -1,0 +1,71 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'trable/css/login/signup.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Sign in</title>
+    <style>
+        body {
+            background-image: url("{% static 'trable/img/zxc.gif' %}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+  
+    </style>
+
+    <script src="{% static 'trable/js/signup/signup.js' %}"></script>
+
+</head>
+<body>
+    <div class="main">
+        <div id="step1" class="step">
+            <p class="sign" align="center">회원가입</p>
+            <!-- 회원정보 입력 단계의 내용 -->
+            <form class="form1">
+                <input class="un centered" type="text" placeholder="Username" name="username">
+                <input class="id centered" type="id" placeholder="ID" name="id">
+                <input class="pass centered" type="password" placeholder="Password" name="password">
+            </form>
+            <button type="button" class="button-style" onclick="window.location.href = 'http://127.0.0.1:8000/trable/';">메인</button>
+            <button type="button" class="button-style" onclick="nextStep(2)">다음</button>
+        </div>
+
+        <div id="step2" class="step" style="display: none;">
+            <!-- 사용자 취향검사 단계의 내용 -->
+            <p class="sign" align="center">사용자 취향검사(3가지)</p>
+            <form class="form1">
+                <div class="user-preferences">
+                    <input class="un centered" type="text" placeholder="Username" name="username">
+                    <input class="id centered" type="id" placeholder="ID" name="id">
+                    <input class="pass centered" type="password" placeholder="Password" name="password">
+                    <!-- 사용자 취향검사 내용을 추가하세요 -->
+                </div>
+            </form>
+            <button type="button" class="button-style" onclick="previousStep(1)">이전</button>
+            <button type="button" class="button-style" onclick="nextStep(3)">다음</button>
+        </div>
+
+        <div id="step3" class="step" style="display: none;">
+            <!-- 테마 선택 및 회원가입 단계의 내용 -->
+            <p class="sign" align="center">테마 선택(3가지)</p>
+            <form class="form1">
+                <div class="theme-selection">
+                    <!-- 테마 선택과 회원가입 내용을 추가하세요 -->
+                    <input class="un centered" type="text" placeholder="Username" name="username">
+                    <input class="id centered" type="id" placeholder="ID" name="id">
+                    <input class="pass centered" type="password" placeholder="Password" name="password">
+                </div>
+            </form>
+            <button type="button" class="button-style" onclick="previousStep(2)">이전</button>
+            <button class="button-style submit" onclick="nextStep(4)">완료</button>
+        </div>
+    </div>
+
+</body>
+</html>
